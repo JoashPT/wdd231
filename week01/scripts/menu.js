@@ -1,3 +1,4 @@
+//hamburger menu
 const menu = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 

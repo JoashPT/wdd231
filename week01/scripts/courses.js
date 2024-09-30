@@ -1,3 +1,4 @@
+//course list
 const courses = [
     {
         subject: 'CSE',

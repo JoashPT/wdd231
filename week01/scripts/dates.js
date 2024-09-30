@@ -1,3 +1,4 @@
+//for footer
 // select the DOM element for output
 const year = document.querySelector("#currentYear");
 const lstModif = document.querySelector('#lastModified');
