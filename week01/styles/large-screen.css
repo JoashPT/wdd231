@@ -1,0 +1,57 @@
+/* Large media screen */
+@media screen and (min-width: 30rem) {
+    #menu {
+        display: none;
+    }
+    
+    .navigation {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .navigation li {
+        list-style: none;
+        width: 25%;
+    }
+    
+    .navigation a{
+        display: block;
+        flex: 2 1 100%;
+        text-align: center;
+        width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+    
+    #courseWorkSection {
+        grid-column: 1 / 2;
+    }
+    
+    #countrySection {
+        grid-column: 2 / 3;
+    }
+    
+    #certificateSection {
+        grid-column: 1 / 3;
+        place-self: center;
+        place-content: center;    
+    }
+
+    .courseCard {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 1rem;
+        place-items: center;
+    }
+}

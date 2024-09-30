@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD231 homepage">
+    <meta name="author" content="Joash Tantiangco">
+    <title>Joash Tantiangco Home Page</title>
+
+    <link rel="preload" href="week01/styles/base.css" as="style">
+    <link rel="preload" href="/week01/scripts/dates.js" as="script">
+    <link rel="preload" href="/week01/scripts/courses.js" as="script">
+    <link rel="preload" href="/week01/images/profile.jpg" as="image" type="image/png">
+    <link rel="preload" href="/week01/images/philippine_flag.png" as="image" type="image/png">
+
+    <link rel="stylesheet" href="week01/styles/base.css">
+    <link rel="stylesheet" href="week01/styles/large-screen.css">
+    <script src="/week01/scripts/menu.js" defer></script>
+    <script src="/week01/scripts/dates.js" defer></script>
+    <script src="/week01/scripts/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <figure id="headerPicture">
+            <img src="/week01/images/profile.jpg" alt="A picture of Joash Tantiangco">
+            <h1>Joash Tantiangco</h1>
+        </figure>
+        <a id="menu"></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Chamber</a></li>
+                <li><a href="https://github.com/JoashPT" target="_blank">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/joash-tantiangco-36a795280/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="courseWorkSection" class="contentSection">
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section id="countrySection" class="contentSection">
+            <h2>Cavite, Philippines</h2>
+            <figure id="countryPicture">
+                <img src="week01/images/philippine_flag.png" alt="A view of the Philippines">
+                <figcaption>Dasmariñas, Cavite</figcaption>
+            </figure>
+        </section>
+        <section id="certificateSection" class="contentSection">
+            <h2>Web and Computer Programing Certificate</h2>
+            <div id="courseButton">
+                <button id="allCourses">All</button>
+                <button id="cseCourses">CSE</button>
+                <button id="wddCourses">WDD</button>
+            </div>
+            <div class="courseCard">
+
+            </div>
+            <p>Credits required: <span id="requiredCredits"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&#169;<span id="currentYear"></span> || Joash Tantiangco || Cavite, Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
