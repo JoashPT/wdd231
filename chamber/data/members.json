@@ -1,0 +1,58 @@
+[
+    {
+        "name": "PLDT",
+        "address": "121 City of Dasmariñas, Cavite, Philippines",
+        "phone_number": "141-592-6535",
+        "website_url": "https://pldthome.com/",
+        "image_icon": "./images/pldt-logo.png",
+        "membership_level": 1
+    },
+    {
+        "name": "Meralco",
+        "address": "144 Kawit, Cavite, Philippines",
+        "phone_number": "897-932-3846",
+        "website_url": "https://company.meralco.com.ph/",
+        "image_icon": "./images/meralco-logo.png",
+        "membership_level": 1
+    },
+    {
+        "name": "ABS-CBN",
+        "address": "169 City of Imus, Cavite, Philippines",
+        "phone_number": "264-338-3279",
+        "website_url": "https://news.abs-cbn.com/",
+        "image_icon": "./images/ABS-CBN-logo.png",
+        "membership_level": 1
+    },
+    {
+        "name": "Puregold",
+        "address": "196 City of Bacoor, Cavite, Philippines",
+        "phone_number": "502-884-1971",
+        "website_url": "https://corporate.puregold.com.ph/",
+        "image_icon": "./images/Puregold-logo.png",
+        "membership_level": 1
+    },
+    {
+        "name": "Globe",
+        "address": "225 Indang, Cavite, Philppines",
+        "phone_number": "693-993-7510",
+        "website_url": "https://www.globe.com.ph/",
+        "image_icon": "./images/globe-logo.png",
+        "membership_level": 1
+    },
+    {
+        "name": "Petron",
+        "address": "256 Magallanes, Cavite, Philippines",
+        "phone_number": "582-097-4944",
+        "website_url": "https://www.petron.com/",
+        "image_icon": "./images/petron-logo.png",
+        "membership_level": 1
+    },
+    {
+        "name": "San Miguel",
+        "address": "289 Tanza, Cavite, Philippines",
+        "phone_number": "592-307-8164",
+        "website_url": "https://www.smfb.com.ph/",
+        "image_icon": "./images/sanmiguel-logo.png",
+        "membership_level": 1
+    }
+]

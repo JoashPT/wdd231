@@ -9,13 +9,16 @@
 :root {
     --header-footer-bg-color: #112211;
     --border-color: #353;
-    --div-bg-color: #bdb;
+    --div-bg-color: #dfd;
+    --div-bg-color-2: #fdb;
     --nav-bg-color: #404020;
     --nav-hover-color: #5e5e3e;
+    --nav-active-color: #222;
     --header-text-color: #dedede;
     --content-text-color: #292929;
     --span-color: #f1affa;
     --span-color-hover: #f3cffc;
+    --div-link-color: #513;
     --course-complete-color: #7f7;
     --course-complete-border-color: #1a1;
     --course-incomplete-color: #f77;
@@ -76,6 +79,11 @@ h1 {
     content: "\2630";
     font-weight: 1000;
     font-size: large;
+    cursor: pointer;
+}
+
+#menu.show::before {
+    content:"X";
 }
 
 .navigation {
@@ -88,8 +96,8 @@ h1 {
     text-decoration: none;
     color: var(--header-text-color);
     text-align: right;
-    margin: 0.5rem;
-    padding: 0.5rem;
+
+    padding: 1rem;
 }
 
 .navigation a:hover, .navigation a:active {
@@ -102,8 +110,10 @@ h1 {
     display: block;
 }
 
-#menu.show::before {
-    content:"X";
+
+li.activeMenu a{
+    color:var(--header-text-color);
+    background-color: var(--nav-active-color);
 }
 
 main{

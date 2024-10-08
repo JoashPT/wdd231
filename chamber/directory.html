@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joash Tantiangco">
+    <meta name="description" content="directory page of the Chamber of Commerce">
+
+    <meta property="title" content="Joash Tantiangco Home Page">
+    <meta property="type" content="website">
+    <meta property="image" content="https://media-cdn.tripadvisor.com/media/photo-c/1280x250/0b/69/88/94/church-interior.jpg">
+    <meta property="url" content="https://joashpt.github.io/wdd231/">
+
+    <title>Directory</title>
+
+    <link rel="preload" href="../scripts/menu.js" as="script">
+    <link rel="preload" href="styles/directory.css" as="style">
+    <link rel="preload" href="../styles/base.css" as="style">  
+
+    <link rel="icon" href="../images/favicon.ico">
+
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/large-screen.css">
+    <link rel="stylesheet" href="styles/directory.css">
+
+    <script src="../scripts/menu.js" defer></script>
+    <script src="../scripts/dates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="headerContent">
+            <h1>Directory</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <a id="menu"></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="activeMenu"><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="displayButton">
+            <button id="gridButton">grid</button>
+            <button id="flexButton">flex</button>
+        </div>
+        <div id="companyDiv">
+
+        </div>
+    </section>
+    <footer>
+        <p>&#169;<span id="currentYear"></span> || Joash Tantiangco || Cavite, Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

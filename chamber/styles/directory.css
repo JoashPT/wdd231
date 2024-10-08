@@ -1,0 +1,110 @@
+
+
+/* Header Content */
+#headerContent {
+    color: var(--header-text-color);
+    padding: 20px;
+}
+
+#headerContent * {
+    padding: 0;
+}
+
+/* Option buttons for "company" display */
+#displayButton {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#displayButton button {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+}
+
+.activeButton {
+    color: var(--header-text-color);
+    background-color: var(--nav-active-color);
+}
+
+/* Company features for all display */
+#companyDiv {
+    margin: 15px 0;
+}
+
+#companyDiv a {
+    text-decoration: none;
+    color: var(--div-link-color);
+}
+
+.boldName {
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Company grid display */
+#companyDiv.gridDisplay {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 30px;
+    justify-content: center;
+    place-items: center;
+}
+
+#companyDiv.gridDisplay div {
+    min-width: 300px;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    box-shadow: var(--border-color) 0 0 15px 10px;
+    padding: 15px;
+    background-color: var(--div-bg-color);
+}
+
+#companyDiv.gridDisplay div *  {
+    margin: 15px 0;
+}
+
+#companyDiv.gridDisplay div img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Company list display */
+#companyDiv.flexDisplay {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#companyDiv.flexDisplay div {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#companyDiv.flexDisplay div * {
+    padding: 10px 1rem;
+}
+
+#companyDiv.flexDisplay div img{
+    display: none;
+}
+
+#companyDiv.flexDisplay div{
+    background-color: var(--div-bg-color);
+}
+
+#companyDiv.flexDisplay div:nth-child(even) {
+    background-color: var(--div-bg-color-2);
+}
+
