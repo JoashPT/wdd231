@@ -102,6 +102,8 @@ function cardMake(someArray) {
             course.setAttribute("class", "incompleteCourse");
         }
 
+        course.addEventListener("click", () => courseDialog(item))
+
         //Appending the container to the existing html element
         document.querySelector(".courseCard").appendChild(course);
 
@@ -112,6 +114,21 @@ function cardMake(someArray) {
     })
     //Showing Credits in the html element
     document.querySelector("#requiredCredits").innerHTML = `<span id="requiredCredits">${totalCredits}</span>`;
+}
+
+const courseDetail = document.getElementById('courseDetail');
+const courseTitle = document.querySelector('#courseDetail > h3');
+const courseDescription = document.querySelector('#courseDetail > p');
+const courseExit = document.querySelector('#courseDetail > button');
+
+courseExit.addEventListener('click', () => {
+    courseDetail.close();
+})
+
+function courseDialog(course) {
+    courseTitle.innerHTML = `${course.title}`;
+    courseDescription.innerHTML = `${course.description}`;
+    courseDetail.showModal();
 }
 
 //Shows courses upon initial loading of webpage
