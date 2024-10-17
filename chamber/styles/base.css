@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-footer-bg-color: #112211;
+    --border-color: #353;
+    --div-bg-color: #dfd;
+    --div-bg-color-2: #fdb;
+    --nav-bg-color: #404020;
+    --nav-hover-color: #5e5e3e;
+    --nav-active-color: #222;
+    --header-text-color: #dedede;
+    --content-text-color: #292929;
+    --span-color: #f1affa;
+    --span-color-hover: #f3cffc;
+    --div-link-color: #513;
+
+    --title-font: Roboto;
+    --content-font: Sedan;
+}
+
+li,
+a,
+figcaption,
+p,
+tr,
+th,
+caption,
+button {
+    font-family: var(--content-font);
+}
+
+h1,
+h2 {
+    font-family: var(--title-font);
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: var(--header-footer-bg-color);
+}
+
+h1 {
+    color: var(--header-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+Header text
+*/
+#headerContent {
+    color: var(--header-text-color);
+    padding: 20px;
+}
+
+
+/*=========================================
+For the navigation element in small screens
+=========================================*/
+
+/*------------------------------
+Menu button positioning and icon
+------------------------------*/
+/*~~~ Menu Position ~~~*/
+#menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: block;
+    color: var(--header-text-color);
+    text-decoration: none;
+}
+
+/*~~~ Menu content when closed ~~~*/
+#menu::before {
+    content: "\2630";
+    font-weight: 1000;
+    font-size: large;
+    cursor: pointer;
+}
+
+/*~~~ Menu content when open ~~~*/
+#menu.show::before {
+    content:"X";
+}
+
+
+/*----------------
+Menu items display
+----------------*/
+/*~~~ Display for <nav> element when closed ~~~*/
+.navigation {
+    display: none;
+    background-color: var(--nav-bg-color);
+}
+
+/*~~~ Display for <nav> items when closed ~~~*/
+.navigation a {
+    display: none;
+    text-decoration: none;
+    color: var(--header-text-color);
+    text-align: right;
+    padding: 1rem;
+}
+
+/*~~~ Display for <nav> items when being :hover and is :active ~~~*/
+.navigation a:hover, .navigation a:active {
+    color:var(--header-text-color);
+    background-color: var(--nav-hover-color);
+}
+
+/*~~~ Changes the {display} of <nav> from  {:none} to {:block} ~~~*/
+/*+++ Requires js to be implemented properly +++*/
+/*+++ Must be put after .navigation {display: none;} to be implemented +++*/
+.show,
+.show a {
+    display: block;
+}
+
+/*~~~ Styles the active menu ~~~*/
+li.activeMenu a{
+    color:var(--header-text-color);
+    background-color: var(--nav-active-color);
+}
+
+
+
+/*==================================================
+General design for the main content in small screens
+==================================================*/
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*=================
+Design for <footer>
+=================*/
+footer {
+    background-color: var(--header-footer-bg-color);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+footer > p {
+    font-family: var(--title-font);
+    color: var(--header-text-color);
+}
+
+
+
+/*================
+Large media screen 
+================*/
+@media screen and (min-width: 45rem) {
+    #menu {
+        display: none;
+    }
+    
+    .navigation {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .navigation li {
+        list-style: none;
+        width: 25%;
+    }
+    
+    .navigation a{
+        display: block;
+        flex: 2 1 100%;
+        text-align: center;
+        width: 100%;
+    }
+}

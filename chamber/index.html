@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Dasmariñas, Cavite, Commerce, Company">
+    <meta name="author" content="Joash Tantiangco">
+    <meta name="description" content="The HomePage for the Chamber of Commerce">
+    
+    <meta property="title" content="Joash Tantiangco Home Page">
+    <meta property="type" content="website">
+    <meta property="image" content="https://media-cdn.tripadvisor.com/media/photo-c/1280x250/0b/69/88/94/church-interior.jpg">
+    <meta property="url" content="https://joashpt.github.io/wdd231/">
+
+    <link rel="icon" href="./images/favicon.ico">
+    
+    <title>Dasmariñas Chamber of Commerce</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="./styles/home.css" as="style">
+    <link rel="preload" href="./scripts/index.js" as="script">
+
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    
+    <script src="./scripts/reuse.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div id="headerContent">
+            <h1>Home</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <a id="menu"></a>
+        <nav class="navigation">
+            <ul>
+                <li class="activeMenu"><a href="#">Home</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="heroDiv">
+            <a href="#">Click me!</a>
+        </div>
+        <section class="contentSection" id="eventSection">
+            <h2>Scheduled Events</h2>
+            <table>
+                <caption>Chamber of Commerce Events</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Event 1</td>
+                        <td>July 3, 2024</td>
+                        <td>Finished</td>
+                        <td><a href="#">Visit Event</a></td>
+                    </tr>
+                    <tr>
+                        <td>Event 2</td>
+                        <td>October 16, 2024</td>
+                        <td>Ongoing</td>
+                        <td><a href="#">Visit Event</a></td>
+                    </tr>
+                    <tr>
+                        <td>Event 3</td>
+                        <td>January 27, 2025</td>
+                        <td>Upcoming</td>
+                        <td><a href="#">Visit Event</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="contentSection">
+            <h2>Weather</h2>
+            <div id="weatherDiv">
+
+            </div>
+        </section>
+        <section class="contentSection">
+            <h2>Featured Companies</h2>
+            <div  id="companyDiv">
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&#169;<span id="currentYear"></span> || Joash Tantiangco || Cavite, Philippines</p>
+        <p id="lastModified"></p>
+    </footer>    
+</body>
+</html>

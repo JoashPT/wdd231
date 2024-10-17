@@ -1,0 +1,158 @@
+/*------
+#heroDiv
+------*/
+#heroDiv {
+    background: url('../images/busy-street-small.webp') center/cover no-repeat;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+#heroDiv a {
+    align-self: flex-end;
+    margin: 35px 50px;
+    padding: 7.5px;
+    border: none;
+    border-radius: 7.5px;
+    background-color: var(--span-color);
+}
+
+#heroDiv a:hover {
+    background-color: var(--span-color-hover);
+}
+
+/*+++ prevents overflow of content +++*/
+main {
+    min-width: 480px;
+    overflow: hidden;
+}
+
+/*---------------------------
+.contentSection general style
+---------------------------*/
+.contentSection {
+    background-color: var(--div-bg-color);
+    border: 5px solid var(--border-color);
+    margin: 15px;
+}
+
+.contentSection > h2 {
+    color: var(--header-text-color);
+    background-color: var(--header-footer-bg-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.contentSection > div {
+    padding: 5px;
+    font-size: small;
+}
+
+
+/*-----------
+#eventSection 
+-----------*/
+#eventSection {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+}
+
+#eventSection table {
+    border-collapse: collapse;
+    justify-self: end;
+    margin: 30px 15px;
+}
+
+#eventSection table th, #eventSection table td {
+    border: 3px double var(--border-color);
+    padding: 5px;
+}
+
+#eventSection table caption {
+    font-weight: bold;
+}
+
+/*---------
+#weatherDiv
+---------*/
+#weatherDiv {
+    display: flex;
+    flex-flow: column wrap;
+
+}
+
+#weatherDiv > p{
+    text-align: left;
+    padding: 5px 10px;
+    font-size: medium;
+}
+
+/*---------
+#companyDiv
+---------*/
+#companyDiv {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#companyDiv div {
+    display: flex;
+    flex-flow: column wrap;
+    border: 10px double var(--border-color);
+    border-radius: 15px;
+    margin: 15px 15px 0;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+    font-size: medium;
+}
+
+#companyDiv div > img {
+    margin: 0 auto;
+}
+
+
+/*============
+MEDIUM SCREENS
+============*/
+@media screen and (min-width: 20rem) {
+    #heroDiv {
+        background: url("../images/busy-street-medium.webp") center/cover no-repeat;
+        height: 250px;
+    }
+}
+
+
+/*===========
+LARGE SCREENS
+===========*/
+@media screen and (min-width: 45rem) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 16px;
+    }
+
+    #heroDiv {
+        background: url('../images/busy-street.jpg') center/cover no-repeat;
+        grid-column: 1 / 3;
+    }
+
+    .contentSection:nth-of-type(3) {
+        grid-column: 1 / 3;
+    }
+
+    #companyDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px 5px;
+    }
+
+    #companyDiv div {
+        margin: 0;
+    }
+    
+}
