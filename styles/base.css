@@ -181,18 +181,49 @@ main{
     padding: 3px;
 }
 
-.card {
-    text-align: center;
-    border: solid var(--header-footer-bg-color) 0.5rem;
-    width: auto;
-    height: 100%;
-    background-color: lightgreen;
-    padding: 0.5rem;
+.courseCard > p {
+    transition: transform .5s ease;
 }
 
-.card > img {
-    width: 100%;
-    height: auto;
+.courseCard > p:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#courseDetail {
+    margin: auto auto;
+    padding: 10px;
+    width: 30rem;
+    border: 5px dashed var(--div-link-color);
+    border-radius: 15px;
+    box-shadow: var(--div-bg-color) 0 0 15px 5px;
+}
+
+#courseDetail::backdrop {
+    backdrop-filter: blur(1px);
+}
+
+#courseDetail > p {
+    margin: 10px 0;
+}
+
+#courseDetail > button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: large;
+    color: #a30;
+}
+
+#courseDetail > button:hover {
+    cursor: pointer;
+}
+
+:modal {
+ background-color: var(--span-color-hover);
+
 }
 
 footer {

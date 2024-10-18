@@ -1,3 +1,7 @@
+/*
+Prototype file for improving the 'then' statements from 'promises
+*/
+
 /*=========
 #weatherDiv
 =========*/
@@ -10,43 +14,46 @@ async function apiFetch() {
     try {
         const response = await fetch(url);
         if (response.ok) {
-            const data = response.json();
-            return data;
+            const weatherData = response.json();
+            getData(weatherData);
         } else {
-            throw Error(await response.text());
+            throw new Error("Couldn't get response from server");
         }
     }
     catch (error) {
-        console.log(error);
+        console.error(error);
     }
 }
 
-function getData() {
-    const returnData = apiFetch().then(data => {
-        const storeObject = {
-            "weatherIcon": data.list[0].weather[0].icon,
-            "currentTemp": data.list[0].main.temp,
-            "weatherDesc": data.list[0].weather[0].description,
+apiFetch();
+
+const getData = (weatherData) => {
+    console.log(weatherData);
+    console.log(weatherData.list[0].main.temp);
+    const objectData = {
+            "temperature": weatherData.list[24].main.temp,
+            "weatherIcon": weatherData.list[0].weather[0].icon,
+            "currentTemp": weatherData.list[0].main.temp,
+            "weatherDesc": weatherData.list[0].weather[0].description,
             
             "morrow": {
-                "weekday": new Date(data.list[8].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
-                "temperature": data.list[8].main.temp
+                "weekday": new Date(weatherData.list[8].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
+                "temperature": weatherData.list[8].main.temp
             },
 
             "overmorrow": {
-                "weekday": new Date(data.list[16].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
-                "temperature": data.list[16].main.temp
+                "weekday": new Date(weatherData.list[16].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
+                "temperature": weatherData.list[16].main.temp
             },
 
             "afterovermorrow": {
-                "weekday": new Date(data.list[24].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
-                "temperature": data.list[24].main.temp
+                "weekday": new Date(weatherData.list[24].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
+                "temperature": weatherData.list[24].main.temp
             }
         }
-        return storeObject;
-    })
-    return returnData;
+    return objectData;
 }
+ 
 
 function displayData(dataList) {
 
@@ -81,7 +88,7 @@ function displayData(dataList) {
     weatherDiv.appendChild(weatherAfterovermorrow);
 }
 
-getData().then(displayData);
+//getData().then(displayData);
 
 
 
@@ -126,6 +133,7 @@ function displayCompany(companies) {
         companyLogo.src = company.image_icon;
         companyLogo.alt = `logo of ${company.name}`;
         companyLogo.loading = "lazy";
+        // companyLogo.width = 100;
         companyLogo.height = 100;
         companyContainer.appendChild(companyLogo);
 
@@ -138,7 +146,7 @@ function displayCompany(companies) {
         companyContainer.appendChild(companyPhone);
 
         let companyAddress = document.createElement("p");
-        companyAddress.textContent = company.address;
+        companyAddress.textContent = company.address
         companyContainer.appendChild(companyAddress);
 
         let companyLevel = document.createElement("p");
@@ -159,3 +167,22 @@ function displayCompany(companies) {
 }
 
 chooseCompany().then(displayCompany);
+
+// .toLocaleString("en-US", {weekday: 'short'}),
+// "temperature": data.list[24].main.temp
+// "weatherIcon": data.list[0].weather[0].icon,
+//             "currentTemp": data.list[0].main.temp,
+//             "weatherDesc": data.list[0].weather[0].description,
+            
+//             "morrow": {
+//                 "weekday": new Date(data.list[8].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
+//                 "temperature": data.list[8].main.temp
+//             },
+
+//             "overmorrow": {
+//                 "weekday": new Date(data.list[16].dt_txt).toLocaleString("en-US", {weekday: 'short'}),
+//                 "temperature": data.list[16].main.temp
+//             },
+
+//             "afterovermorrow": {
+//                 "weekday": new Date(data.list[24].dt_txt)
