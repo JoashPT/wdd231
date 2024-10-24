@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Dasmariñas Chamber of Commerce, commerce, join, membership, member">
+    <meta name="author" content="Joash Tantiangco">
+    <meta name="description" content="Join webpage for the Dasmariñas Chamber of Commerce">
+
+    <meta property="og:title" content="Joash Tantiangco Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://media-cdn.tripadvisor.com/media/photo-c/1280x250/0b/69/88/94/church-interior.jpg">
+    <meta property="og:url" content="https://joashpt.github.io/wdd231/">
+
+    <title>Join Us!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/join.css">
+
+    <script src="./scripts/reuse.js" defer></script>
+    <script src="./scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="headerContent">
+            <h1>Join</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <a id="menu"></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./directory.html">Directory</a></li>
+                <li class="activeMenu"><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="./thankyou.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name <span>*</span>
+                    <input 
+                        type="text" 
+                        id="fname" 
+                        name="fname" 
+                        pattern="[A-Za-z\s]{1,}"
+                        autocomplete="given-name" 
+                        title="Your first name" 
+                        required>
+                </label>
+                <label>Last Name <span>*</span>
+                    <input 
+                        type="text" 
+                        id="lname" 
+                        name="lname" 
+                        pattern="[A-Za-z\s]{1,}"
+                        autocomplete="family-name" 
+                        title="Your last name" 
+                        required>
+                </label>
+                <label>Organizational Title
+                    <input 
+                        type="text" 
+                        id="orgtitle"
+                        name="orgtitle" 
+                        pattern="[A-Za-z\s\-]{7,}" 
+                        autocomplete="organization-title"
+                        title="Your position in the organization">        
+                </label>
+                <label>Email Address <span>*</span>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email"
+                        autocomplete="email"
+                        placeholder="someone@somewhere.com"
+                        title="Your email address"
+                        required></label>
+                <label>Mobile Phone Number <span>*</span>
+                    <input 
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        pattern="[0-9]{10}"
+                        autocomplete="phone"
+                        title="Your phone number"
+                        required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Company Information</legend>
+                <label>
+                    Business Organization Name <span>*</span>
+                    <input
+                        type="text"
+                        id="orgname"
+                        name="orgname"
+                        autocomplete="organization"
+                        title="Name of your business" 
+                        required>
+                </label>
+                <label>
+                    Membership Level
+                    <select 
+                        id="memberlevel"
+                        name="memberlevel"
+                        title="Membership Level upon registration">
+                        <option value disabled selected>Select your Membership Level...</option>
+                        <option value="NP Membership">NP Membership</option>
+                        <option value="Bronze Membership">Bronze Membership</option>
+                        <option value="Silver Membership">Silver Membership</option>
+                        <option value="Gold Membership">Gold Membership</option>
+                    </select>
+                </label>
+                <label>
+                    Business Description
+                    <textarea id="orgdescription" name="orgdescription" title="A short description of your company">
+                    </textarea>
+                </label>
+            </fieldset>
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            <input type="submit" value="Register Your Company">
+        </form>
+        <section id="dialogDivHolder">
+            <h2>Membership Plans</h2>
+            <div id="npDiv">
+                <h3>NP</h3>
+                <p>Learn more</p>
+            </div>
+            <dialog id="npDialog">
+                <h3>NP Membership</h3>
+                <p>Description: Perfect for startup business.</p>
+                <ul>
+                    <li>Get email updates for new updates</li>
+                    <li>Event invitation</li>
+                    <li>Advertise your most featured product</li>
+                    <li>Free!</li>
+                </ul>
+                <p>Your journey begins today!</p>
+                <button>X</button>
+            </dialog>
+            <div id="bronzeDiv">
+                <h3>Bronze</h3>
+                <p>Learn more</p>
+            </div>
+            <dialog id="bronzeDialog">
+                <h3>Bronze Membership</h3>
+                <p>Description: Recommended for small businesses.</p>
+                <ul>
+                    <li>Get earlier email updates</li>
+                    <li>Normal booth in Events</li>
+                    <li>Advertisement of Products</li>
+                    <li>$10.00 per month</li>
+                </ul>
+                <p>From small and simple things, are great things brought to pass.</p>
+                <button>X</button>
+            </dialog>
+            <div id="silverDiv">
+                <h3>Silver</h3>
+                <p>Learn more</p>
+            </div>
+            <dialog id="silverDialog">
+                <h3>Silver Membership</h3>
+                <p>Description: Mostly used by medium businesses.</p>
+                <ul>
+                    <li>Take part in making of Events</li>
+                    <li>Huge Booth in Events</li>
+                    <li>Prioritized in being Advertised </li>
+                    <li>$50.00 per month</li>
+                </ul>
+                <p>And see that all these things are done in wisdom and order.</p>
+                <button>X</button>
+            </dialog>
+            <div id="goldDiv">
+                <h3>Gold</h3>
+                <p>Learn more</p>
+            </div>
+            <dialog id="goldDialog">
+                <h3>Gold Membership</h3>
+                <p>Description: Ideal for large businesses.</p>
+                <ul>
+                    <li>Event invitation or initialization</li>
+                    <li>Luxury Booth in Events</li>
+                    <li>Highest Priority of Advertisement in Pages</li>
+                    <li>$250.00 per month</li>
+                </ul>
+                <p>Let your light shine!</p>
+                <button>X</button>
+            </dialog>
+        </section>
+    </main>
+    <footer>
+        <p>&#169;<span id="currentYear"></span> || Joash Tantiangco || Cavite, Philippines</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

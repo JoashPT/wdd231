@@ -1,0 +1,32 @@
+
+
+#response {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15px;
+    background-color: var(--div-bg-color);
+    border: solid 10px var(--border-color);
+    border-radius: 15px;
+}
+
+#response > * {
+    padding: 0.5rem;
+}
+
+#response > a:last-of-type {
+    align-self: flex-end;
+    background-color: var(--span-color);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0.75rem;
+}
+
+#response > p:first-of-type,
+#response > p:last-of-type {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#response > a:last-of-type:hover {
+    background-color: var(--span-color-hover);
+}
