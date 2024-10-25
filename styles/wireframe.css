@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sanchez:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --background-color: #020202;
+    --text-color: #F4F4F4;
+    --border-color: #771313;
+
+    --heading-font: Sanchez;
+    --content-font: Lato;
+}
+
+/* body {
+
+} */
+
+header,
+footer {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 2rem;
+}
+
+header {
+    border-bottom: solid 25px var(--border-color);
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+section {
+    border: solid var(--border-color) 15px;
+    border-radius: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 1.5rem auto;
+    width: 80%;
+}
+
+section h2 {
+    font-family: var(--heading-font);
+    background-color: var(--heading-color);
+    padding: 1.5rem;
+}
+
+section > div {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+section > p,
+section > div > p {
+    padding: 1.5rem;
+}
+
+section > ul {
+    padding: 0 0 2rem 3rem;
+}
+
+section > ul > li {
+    padding: 0.5rem;
+}
+
+section > div > img {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer {
+    border-top: solid 20px var(--border-color);
+}
+
+footer > p {
+    text-align: center;
+}
