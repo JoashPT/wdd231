@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Corregidor Island",
+        "image": "./images/corregidor_island.webp",
+        "description": "The island fortress of Corregidor is strategically located at the entrance of Manila Bay, south of Bataan, but it’s under the territorial jurisdiction of Cavite.\n It's one of the best day tour destinations near Manila. Corregidor Island (Fort Mills) is one of the harbor defenses and vital combat zones between the Japanese Imperial Army and allied forces during World War II. "
+    },
+    {
+        "name": "Emilio Aguinaldo Shrine and Museum",
+        "image": "./images/aguinaldo_shrine_and_museum.webp",
+        "description": "One of the top historical tourist spots in Cavite is Emilio Aguinaldo Shrine and Museum, the site of the first unfurling of the Philippine flag. Former president Emilio Aguinaldo officially proclaimed the Philippine Independence from Spanish colonization on June 12, 1898, on the balcony of his home in Kawit, Cavite."
+    },
+    {
+        "name": "Malibiclibic Falls",
+        "image": "./images/malicbiclic_falls.webp",
+        "description": "One of the hidden gems in Cavite is nestled between General Emilio Aguinaldo (formerly Bailen), Maragondon, and Magallanes towns. Malibiclibic Falls is a result of three rivers merging from a 100-meter cliff below a grassland. The cascading water also pours to a wide catch basin perfect for a refreshing dip."
+    },
+    {
+        "name": "Imus Cathedral",
+        "image": "./images/imus_cathedral.webp",
+        "description": "Another solemn and impressive church in Cavite is the Imus Cathedral, also known as The Diocesan Shrine and Parish of the Our Lady of the Pillar. It serves as a significant part of the history and culture of Caviteños, which dates back to the 1820s.\n The Hispanic architecture of the church has been beautifully preserved until now. Apart from the bricks and stones on its walls, you can also find Latin inscriptions on its arches. The pattern of the facades somewhat resembles the Manila Cathedral in Intramuros."
+    },
+    {
+        "name": "Mt. Pico de Loro",
+        "image": "./images/pico_de_loro.webp",
+        "description": "Also known as Mt. Palay Palay, Mt. Pico de Loro stands majestically between Maragondon, Cavite, and Nasugbu, Batangas. It is a dormant volcano that rises over 664m above sea level. It is one of the top hiking destinations in the Philippines.\n The name “Pico de Loro” means parrot’s beak, which forms a resemblance to the mountain’s summit. Its breathtaking summit offers an unobstructed view of the nearby provinces of Laguna and Batangas. You can also witness the nearby scenic islands of Limbones, Corregidor, and Carabao."
+    },
+    {
+        "name": "Gourmet Farms",
+        "image": "./images/gourmet_farm.webp",
+        "description": "Cavite is also famous for its thriving agri-tourism scene and farm tours. The province is home to coffee bean plantations, organic farms, lush greeneries, and beautifully manicured landscapes.\n One of the must-visit Cavite farms is Gourmet Farms, which claims to be the first-ever farm to introduce the Philippines’ finest coffee beans to the world. This first-ever commercial roasting facility and coffee bean plantation is an ideal spot for coffee lovers."
+    },
+    {
+        "name": "San Roque Parish Church",
+        "image": "./images/san_roque_parish_church.webp",
+        "description": "The Diocesan Shrine of Our Lady of Solitude of Porta Vaga, also known as San Roque Parish Church, serves as a pilgrimage center in Cavite City. It is one of the most-visited churches in Cavite, especially during the Holy Week season. Catholics usually visit San Roque Parish Church as common practice for Visita Iglesia."
+    },
+    {
+        "name": "Museo De La Salle",
+        "image": "./images/museo_de_lasalle.webp",
+        "description": "The province of Cavite is also home to various cultural and historical attractions. One of which is Museo De La Salle, the official museum of the De La Salle University System in Dasmariñas, Cavite. It aims to showcase the extravagant lifestyle of Ilustrados during the Spanish colonial period.\n The museum’s architecture is reminiscent of the traditional Bahay-na-Bato. Featuring Mexican, Spanish, and Oriental architecture, Museo De La Salle houses antique wooden furniture, life-size religious statues, crystal chandeliers, and rare ceramics. Some of the collections and art pieces came from donations."
+    },
+    {
+        "name": "Boracay de Cavite",
+        "image": "./images/boracay_de_cavite.webp",
+        "description": "Among the many famous beaches in the south, Boracay de Cavite is one of the go-to weekend destinations and sought-after holiday spots. This famous Cavite beach features powdery fine gray sand and clean waters overlooking the Corregidor Island and Mount Mariveles in Bataan."
+    },
+    {
+        "name": "Balite Falls",
+        "image": "./images/balite_falls.webp",
+        "description": "For those seeking a refreshing spot to unwind, visit Balite Falls in Amadeo, Cavite. Its enchanting waterfalls are among the several emerging attractions in Cavite. Enclosed inside a 4-hectare property, the Balite Falls has refreshing cold water gushing down a natural swimming pool."
+    },
+    {
+        "name": "Patungan Beach Cove",
+        "image": "./images/patungan_beach_cove.webp",
+        "description": "Another secluded and must-see beach spot in the province lies in Maragondon, Cavite. Situated at the southern side of Mt. Palay Palay or Pico de Loro, Patungan Beach Cove rivals those famous beaches in Batangas and Zambales. It boasts light brown sand, impressive rock formations, and breathtaking views of nearby islands. "
+    },
+    {
+        "name": "Paniman Beach",
+        "image": "./images/paniman_beach.webp",
+        "description": "If you are looking for serene and less-crowded beaches near Manila, Paniman Beach is the place to be! This palm-fringed and powdery gray-sand beach is within the vicinity of Puerto Azul Golf Resort in Ternate, Cavite. It is one of the secluded spots in the province that features a quieter ambiance near the metro."
+    }
+]

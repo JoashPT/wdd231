@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Regada Festival",
+        "location": "Cavite City",
+        "image": "./images/regada.webp",
+        "description": "Regada is a festival in Cavite City in which the merry-making is centered on sprinkling water. It is a week-long celebration starting on the second week of June and ends on the feast day of St. John the Baptist, June 24."
+    },
+    {
+        "name": "Wagayway Festival",
+        "location": "Imus, Cavite",
+        "image": "./images/wagayway.webp",
+        "description": "Wagayway Festival is celebrated every 28th of May in Imus, Cavite to commemorate the Battle of Alapan where many Filipinos following the lead of General Emilio Aguinaldo risked their lives against the conquering Spaniards. Tagged as “wagayway” (wave), the historical Imus is the place when the Philippine Flag was first waved to signify a won battle."
+    },
+    {
+        "name": "Pahimis Festival",
+        "location": "Amadeo, Cavite",
+        "image": "./images/pahimis.webp",
+        "description": "PAHIMIS is the Amadeo word for “pasasalamat” (thanksgiving) in the olden times. As a tradition, coffee farmers gave away his last can of harvest as a sign of thanksgiving, believing that by doing so, luck and abundance would come on the next harvest season. An eat-together gathering with neighbours will serve as the Pahimis before the start of business venture or relatives and friends were sent part or harvest of food as Pahimis."
+    },
+    {
+        "name": "Paruparo Festival",
+        "location": "Dasmariñas, Cavite",
+        "image": "./images/paruparo.webp",
+        "description": "The City of Dasmarinas, Cavite celebrates the Paruparo Festival every 26th of November. The first Paruparo Festival was launched in November 26, 2011 coinciding with the 2nd Cityhood Anniversary of Dasmarinas. The metamorphosis of the butterfly resembles the events that the city underwent towards becoming a progressive city."
+    },
+    {
+        "name": "Tahong Festival",
+        "location": "Bacoor, Cavite",
+        "image": "./images/tahong.webp",
+        "description": "Tahong festival is celebrated yearly every September 29. Part of this celebration is preparing cuisines with tahong as main ingredient for an exhibit at the town plaza. There are also culinary contests and beauty contest. The celebration also tends to inform people about the culture of tahong by conducting seminars."
+    }
+]
