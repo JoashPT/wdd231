@@ -78,6 +78,7 @@ function createInterestCard() {
 
             let interest_img = document.createElement("img");
             interest_img.src = interest.image;
+            interest_img.alt = interest.name;
             interest_img.setAttribute("loading", "lazy");
             interest_figure.appendChild(interest_img);
 
@@ -99,7 +100,7 @@ function createInterestCard() {
                 let modal_img = document.createElement("img");
                 modal_img.src = interest.image;
                 modal_img.width = 80;
-                modal_img.setAttribute("loading", "lazy");
+                modal_img.loading = "lazy";
                 interestDetail.appendChild(modal_img);
 
                 let modal_desc = document.createElement("p");
