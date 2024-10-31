@@ -1,0 +1,17 @@
+section > div > figure > img {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+#eventCategory li {
+    width: 25%;
+}
+
+tbody > tr > td:first-of-type {
+    cursor: pointer;
+}
+
+tbody > tr > td:first-of-type:hover {
+    background-color: var(--link-color-hover);
+}

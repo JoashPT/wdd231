@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Elite Paddle Masters",
+        "date": "2024-10-27",
+        "duration": "5",
+        "location": "Indang",
+        "description": "Join us for an exceptional table tennis tournament that brings together enthusiasts and competitors in a dynamic sporting environment. Experience the thrill of competitive matches, strategic gameplay, and the opportunity to showcase your skills against worthy opponents. Our state-of-the-art facilities and experienced officials ensure a seamless competition experience. Network with fellow players, learn from seasoned competitors, and elevate your game to new heights. This event promises to deliver intense matches, valuable connections, and memorable moments for all participants.",
+        "status": "Ongoing",
+        "image": "./images/elite-paddle-masters.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=2844"
+    },
+    {
+        "name": "Spin Summit Championship",
+        "date": "2024-11-05",
+        "duration": "7",
+        "location": "City of General Trias",
+        "description": "Immerse yourself in the premier table tennis championship designed for players seeking to test their abilities and compete at the highest level. Our meticulously organized tournament features multiple divisions to accommodate various skill levels, ensuring competitive matches for everyone. Benefit from professional-grade equipment, expert officiating, and a structured format that maximizes playing time. Experience the perfect blend of competitive spirit and sporting excellence in this prestigious event.",
+        "status": "Upcoming",
+        "image": "./images/spin-summit-championship.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=2887"
+    },
+    {
+        "name": "Power Ping Challenge",
+        "date": "2025-01-03",
+        "duration": "3",
+        "location": "Trece Martires City",
+        "description": "Step into an arena where precision meets power in this innovative table tennis competition. Participants will engage in specially designed challenge rounds that test both technical prowess and tactical thinking. Our event combines traditional tournament play with unique skill-based competitions, offering a fresh take on competitive table tennis. Experience professional organization, quality equipment, and an atmosphere that encourages both competitive excellence and sporting camaraderie.",
+        "status": "Upcoming",
+        "image": "./images/power-ping-challenge.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=3001"
+    },
+    {
+        "name": "Table Tennis Triumph",
+        "date": "2025-05-06",
+        "duration": "4",
+        "location": "Silang",
+        "description": "Enter an exceptional sporting event that celebrates the artistry and athleticism of table tennis. This tournament features a sophisticated bracket system, ensuring fair and exciting matchups throughout the competition. Participants will enjoy access to premium facilities, expert officiating, and opportunities for skill development. The event structure promotes both competitive excellence and sporting fellowship, creating an ideal environment for players to showcase their abilities and forge valuable connections.",
+        "status": "Upcoming",
+        "image": "./images/table-tennis-triumph.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=3041"
+    },
+    {
+        "name": "Velocity Volley Series",
+        "date": "2024-10-28",
+        "duration": "2",
+        "location": "Alfonso",
+        "description": "Discover the ultimate table tennis experience in this fast-paced, professionally organized tournament series. Competitors will engage in strategically structured matches that highlight both technical skill and tactical expertise. Our event features advanced scoring systems, professional equipment, and experienced officials to ensure fair and exciting competition. Participants can expect a dynamic atmosphere that combines competitive intensity with sporting excellence, creating an unforgettable tournament experience.",
+        "status": "Ongoing",
+        "image": "./images/velocity-volley-series.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=2997"
+    },
+    {
+        "name": "Premier Paddle Tournament",
+        "date": "2025-03-26",
+        "duration": "4",
+        "location": "City of Dasmariñas",
+        "description": "Experience the pinnacle of table tennis competition at this distinguished sporting event. Witness exceptional athletes showcase their mastery of spin, strategy, and skill across multiple divisions. Participants will compete in a meticulously organized bracket system, ensuring balanced matchups and maximum competitive engagement. Network with fellow table tennis enthusiasts while experiencing the thrill of high-level play. This tournament features state-of-the-art equipment, certified officials, and comprehensive scoring systems to maintain the highest competitive standards.",
+        "status": "Upcoming",
+        "image": "./images/premier-paddle-tournament.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=3074"
+    },
+    {
+        "name": "Dynamic Table Masters",
+        "date": "2024-09-06",
+        "duration": "3",
+        "location": "Magallanes",
+        "description": "Join an assemblage of talented players in this prestigious table tennis competition designed to challenge and showcase athletic excellence. Competitors will engage in strategic matches that test their technical prowess and mental fortitude. The event incorporates advanced tournament structures and professional-grade facilities to ensure optimal playing conditions. Participants can expect precise officiating, detailed statistical tracking, and opportunities to elevate their competitive standing in the table tennis community.",
+        "status": "Finished",
+        "image": "./images/dynamic-table-masters.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=2832"
+    },
+    {
+        "name": "Precision Paddle Series",
+        "date": "2025-04-09",
+        "duration": "2",
+        "location": "City of Bacoor",
+        "description": "Enter an arena where accuracy meets athleticism in this distinguished table tennis championship. Players will compete in carefully structured rounds that highlight technical skill and tactical expertise. The event features comprehensive player rankings, professional tournament management, and opportunities for competitive advancement. Experience matches conducted under international standards with certified equipment and expert officiating. Network with fellow competitors while participating in this meticulously organized sporting event.",
+        "status": "Upcoming",
+        "image": "./images/precision-paddle-series.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=3021"
+    },
+    {
+        "name": "Championship Table Classic",
+        "date": "2024-04-25",
+        "duration": "5",
+        "location": "Mendez",
+        "description": "Immerse yourself in this exemplary table tennis tournament that combines competitive excellence with professional organization. Players will engage in strategically designed brackets that maximize competitive opportunities and showcase athletic talent. The event provides superior playing conditions, expert officiating, and comprehensive scoring systems. Participants will experience matches that test their skills while adhering to international competition standards and protocols.",
+        "status": "Finished",
+        "image": "./images/championship-table-classic.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=2813"
+    },
+    {
+        "name": "Strategic Spin Championship",
+        "date": "2025-04-03",
+        "duration": "6",
+        "location": "Noveleta",
+        "description": "Participate in this distinguished table tennis competition where tactical expertise meets athletic performance. Players will engage in precisely organized matches that challenge their technical abilities and competitive spirit. The tournament features professional-grade equipment, certified officials, and comprehensive ranking systems. Experience the intensity of high-level play while competing in an environment designed to showcase and develop exceptional table tennis talent.",
+        "status": "Upcoming",
+        "image": "./images/strategic-spin-championship.webp ",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=3071"
+    },
+    {
+        "name": "Community Paddle Festival",
+        "date": "2024-10-06",
+        "duration": "2",
+        "location": "Ternate",
+        "description": "Join us for a welcoming table tennis experience designed for players of all skill levels. This community-focused event emphasizes camaraderie and skill development in a structured yet relaxed environment. Participants will engage in friendly matches, receive basic technique guidance, and connect with fellow enthusiasts. Our experienced coordinators ensure a balanced competitive atmosphere while maintaining the event's recreational spirit. Whether you're holding a paddle for the first time or have been playing casually for years, this festival provides the perfect platform to enhance your game and forge new connections within the local table tennis community.",
+        "status": "Finished",
+        "image": "./images/community-paddle-festival.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=2841"
+    },
+    {
+        "name": "Friendly Spin Series",
+        "date": "2024-09-26",
+        "duration": "1",
+        "location": "Cavite City",
+        "description": "Experience the excitement of recreational table tennis in this accessible tournament series. Designed for casual players seeking a more structured competitive environment, this event combines the thrill of organized play with a welcoming atmosphere. Participants will be matched with others of similar skill levels, ensuring engaging and balanced matches throughout the day. Our format emphasizes learning and improvement while maintaining the social aspects of the sport. Benefit from basic coaching tips, meet fellow enthusiasts, and discover the joy of friendly competition in this inclusive sporting event.",
+        "status": "Finished",
+        "image": "./images/friendly-spin-series.webp",
+        "register": "https://worldtabletennis.com/eventInfo?eventId=2838"
+    }
+]

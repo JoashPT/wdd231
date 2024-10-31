@@ -1,0 +1,25 @@
+#response {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#response > p,
+#response > a {
+    margin: 15px 10px;
+}
+
+#response > a {
+    display: block;
+}
+
+#response > a:last-child {
+    width: fit-content;
+    background-color: var(--link-color);
+    border-radius: 15px;
+    padding: 1rem;
+    align-self: flex-end;
+}
+
+#response > a:last-child:hover {
+    background-color: var(--link-color-hover);
+}

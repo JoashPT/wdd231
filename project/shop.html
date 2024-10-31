@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joash Tantiangco">
+    <meta name="description" content="Shops Page for Ping Pong Cavite">
+    <meta name="keywords" content="Ping Pong, Table Tennis, Cavite, Shop, Prebuilt, Paddle, Rubber, Balls, Miscellaneous">
+    
+    <meta property="og:title" content="Ping Pong Cavite Shop Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://static.wixstatic.com/media/d9a908_9788d245789c4c4b92b72651bf14f704~mv2.jpg/v1/fill/w_752,h_502,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d9a908_9788d245789c4c4b92b72651bf14f704~mv2.jpg">
+    <meta property="og:url" content="https://joashpt.github.io/wdd231/project/shop.html">
+
+
+    <title>Ping Pong Cavite</title>
+
+    <link rel="icon" href="./images/ping-pong-icon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="./images/background-image.webp" as="image" type="image/webp">
+    <link rel="preload" href="./images/ping-pong-logo.webp" as="image" type="image/webp">
+    <link rel="preload" href="./images/shop-hero.webp" as="image" type="image/webp">
+    <link rel="preload" href="./images/facebook-icon.png" as="image" type="image/png">
+    <link rel="preload" href="./images/twitter-icon.png" as="image" type="image/png">
+    <link rel="preload" href="./images/instagram-icon.png" as="image" type="image/png">
+
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/shop.css">
+
+    <script src="./scripts/reuse.js" defer></script>
+    <script src="./scripts/shop.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <figure id="headerLogo">
+                <img src="./images/ping-pong-logo.webp" alt="A paddle and a ball for table tennis" loading="lazy">
+            </figure>
+            <div>
+                <h1>Ping Pong Cavite</h1>
+                <p>Home</p>
+            </div>
+        </div> 
+        <a id="menu"></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li class="activeMenu"><a href="#">Shop</a></li>
+                <li><a href="./events.html">Events</a></li>
+                <li><a href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Shop</h2>
+                <p>
+                    Welcome to the Shop page! This page have several categories of products ranging from prebuilt rackets,
+                    paddles of different materials and grip, rubbers of different feel and types, table tennis balls of different brands,
+                    and other miscellaneous products!
+                </p>
+            </div>
+            <figure>
+                <img src="./images/shop-hero.webp" alt="A shop for table tennis equipment" loading="lazy">
+            </figure>
+        </section>
+        <section id="shopSection" class="mainSection">
+            <h2>Available Products</h2>
+            <div>
+                <ul id="shopCategory" class="listCategory">
+                    <li>Prebuilt</li>
+                    <li>Paddle</li>
+                    <li>Rubber</li>
+                    <li>Ball</li>
+                    <li>Misc</li>
+                </ul>
+            </div>
+            <div id="shopItemList">
+
+            </div>
+            <dialog id="shopItemDialog" class="itemDialog">
+
+            </dialog>
+        </section>
+        <section>
+            <h2>Cart</h2>
+            <table id="shopTable">
+                <caption>Items in your shopping list</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody id="cartBody">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Total:</th>
+                        <td id="totalPrice"></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <dialog id="cartItemDialog" class="itemDialog">
+
+            </dialog>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>Ping Pong Cavite</p>
+            <p>Cavite Philippines</p>
+            <p>Email: <a href="pingpongcavite@gmail.com">pingpongcavite@gmail.com</a></p>
+            <p>Phone: +63 987 654 3210</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/">
+                <img src="./images/facebook-icon.png" alt="Facebook icon" loading="lazy">
+            </a>
+            <a href="https://x.com/?lang=en">
+                <img src="./images/twitter-icon.png" alt="Twitter icon" loading="lazy">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="./images/instagram-icon.png" alt="Instagram icon" loading="lazy">
+            </a>
+        </div>
+        <div>
+            <p>WDD231 Project</p>
+            <p>Joash Tantiangco</p>
+            <p>&#169;<span id="currentYear"></span></p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

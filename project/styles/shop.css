@@ -1,0 +1,43 @@
+#shopCategory li {
+    width: 20%;
+}
+
+#shopItemList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 30px;
+    justify-content: center;
+    place-items: center;
+}
+
+#shopItemList > div > img {
+    width: 100%;
+}
+
+#shopItemList > div {
+    cursor: pointer;
+    transition: transform ease-in-out .5s;
+}
+
+#shopItemList > div:hover {
+    transform: scale(1.05);
+}
+
+thead > tr,
+tfoot > tr {
+    background-color: var(--link-color);
+}
+
+tbody > tr > td:first-of-type,
+tbody > tr > td:last-of-type {
+    cursor: pointer;
+}
+
+tbody > tr > td:first-of-type:hover,
+tbody > tr > td:last-of-type:hover {
+    background-color: var(--link-color-hover);
+}
+
+tfoot > tr > th {
+    text-align: right;
+}

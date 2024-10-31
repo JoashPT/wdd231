@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joash Tantiangco">
+    <meta name="description" content="Events Page for Ping Pong Cavite">
+    <meta name="keywords" content="Ping Pong, Table Tennis, Cavite, Join, Register, Update">
+    
+    <meta property="og:title" content="Ping Pong Cavite Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://static.wixstatic.com/media/d9a908_9788d245789c4c4b92b72651bf14f704~mv2.jpg/v1/fill/w_752,h_502,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d9a908_9788d245789c4c4b92b72651bf14f704~mv2.jpg">
+    <meta property="og:url" content="https://joashpt.github.io/wdd231/project/join.html">
+
+
+    <title>Ping Pong Cavite</title>
+
+    <link rel="icon" href="./images/ping-pong-icon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="preload" href="./images/background-image.webp" as="image" type="image/webp">
+    <link rel="preload" href="./images/ping-pong-logo.webp" as="image" type="image/webp">
+    <link rel="preload" href="./images/join-hero.webp" as="image" type="image/webp">
+    <link rel="preload" href="./images/facebook-icon.png" as="image" type="image/png">
+    <link rel="preload" href="./images/twitter-icon.png" as="image" type="image/png">
+    <link rel="preload" href="./images/instagram-icon.png" as="image" type="image/png">
+
+    <link rel="stylesheet" href="./styles/base.css">
+
+    <script src="./scripts/reuse.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <figure id="headerLogo">
+                <img src="./images/ping-pong-logo.webp" alt="A paddle and a ball for table tennis" loading="lazy">
+            </figure>
+            <div>
+                <h1>Ping Pong Cavite</h1>
+                <p>Home</p>
+            </div>
+        </div> 
+        <a id="menu"></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./events.html">Events</a></li>
+                <li class="activeMenu"><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Join</h2>
+                <p>
+                    Register, and receive free updates for our new products coming to our shop, you will also receive email regarding the events that are 
+                    to pass in the table tennis world!
+                </p>
+            </div>
+            <figure>
+                <img src="./images/join-hero.webp" alt="An update for table tennis equipment" loading="lazy">
+            </figure>
+        </section>
+        <form method="get" action="./thankyou.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First Name <span>*</span>
+                    <input 
+                        type="text" 
+                        id="fname" 
+                        name="fname" 
+                        pattern="[A-Za-z\s]{1,}"
+                        autocomplete="given-name" 
+                        title="Your first name" 
+                        required>
+                </label>
+                <label>Last Name <span>*</span>
+                    <input 
+                        type="text" 
+                        id="lname" 
+                        name="lname" 
+                        pattern="[A-Za-z\s]{1,}"
+                        autocomplete="family-name" 
+                        title="Your last name" 
+                        required>
+                </label>
+                <label>Email Address <span>*</span>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email"
+                        autocomplete="email"
+                        placeholder="someone@somewhere.com"
+                        title="Your email address"
+                        required></label>
+                <label>Mobile Phone Number <span>*</span>
+                    <input 
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        pattern="[0-9]{10}"
+                        autocomplete="phone"
+                        title="Your phone number"
+                        required>
+                </label>
+                <input type="submit" value="Get Updated!">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p>Ping Pong Cavite</p>
+            <p>Cavite Philippines</p>
+            <p>Email: <a href="pingpongcavite@gmail.com">pingpongcavite@gmail.com</a></p>
+            <p>Phone: +63 987 654 3210</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/">
+                <img src="./images/facebook-icon.png" alt="Facebook icon" loading="lazy">
+            </a>
+            <a href="https://x.com/?lang=en">
+                <img src="./images/twitter-icon.png" alt="Twitter icon" loading="lazy">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="./images/instagram-icon.png" alt="Instagram icon" loading="lazy">
+            </a>
+        </div>
+        <div>
+            <p>WDD231 Project</p>
+            <p>Joash Tantiangco</p>
+            <p>&#169;<span id="currentYear"></span></p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

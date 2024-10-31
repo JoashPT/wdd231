@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sanchez:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #f4f4f4;
+    --background-color: #020202;
+    --border-color: #771313;
+    --table-border-color: #efefef;
+    --link-color: #5F1010;
+    --link-color-hover: #6F2020;
+
+    --title-font: Sanchez;
+    --content-font: Lato;
+}
+
+li, a, p,
+figcaption,
+tr,th,
+caption,
+button,
+label {
+    font-family: var(--content-font);
+}
+
+h1, h2, h3, h4,
+caption, th,
+legend {
+    font-family: var(--title-font);
+}
+
+p, a,
+li,
+caption, th, tr,
+h1, h2, h3, h4,
+legend, label {
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*=========
+Header text
+=========*/
+header > div > figure > img {
+    width: 75%;
+}
+
+header > div {
+    background-color: var(--background-color);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 1rem;
+}
+
+/*=========================================
+For the navigation element in small screens
+=========================================*/
+
+/*------------------------------
+Menu button positioning and icon
+------------------------------*/
+/*~~~ Menu Position ~~~*/
+#menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/*~~~ Menu content when closed ~~~*/
+#menu::before {
+    content: "\2630";
+    font-weight: 1000;
+    font-size: large;
+    cursor: pointer;
+}
+
+/*~~~ Menu content when open ~~~*/
+#menu.show::before {
+    content:"X";
+}
+
+
+/*----------------
+Menu items display
+----------------*/
+/*~~~ Display for <nav> element when closed ~~~*/
+.navigation {
+    display: none;
+    background-color: var(--link-color);
+}
+
+/*~~~ Display for <nav> items when closed ~~~*/
+.navigation a {
+    display: none;
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: right;
+    padding: 1rem;
+}
+
+/*~~~ Display for <nav> items when being :hover and is :active ~~~*/
+.navigation a:hover, .navigation a:active {
+    color:var(--text-color);
+    background-color: var(--link-color-hover);
+}
+
+/*~~~ Changes the {display} of <nav> from  {:none} to {:block} ~~~*/
+/*+++ Requires js to be implemented properly +++*/
+/*+++ Must be put after .navigation {display: none;} to be implemented +++*/
+.show,
+.show a {
+    display: block;
+}
+
+/*~~~ Styles the active menu ~~~*/
+li.activeMenu a{
+    color:var(--header-text-color);
+    background-color: var(--nav-active-color);
+}
+
+
+/*==================================================
+General design for the main content in small screens
+==================================================*/
+main {
+    background: url('../images/background-image.webp') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*===========================
+General design for containers
+===========================*/
+main > div,
+main > section,
+main > form {
+    background-color: var(--background-color);
+    border: solid 20px var(--border-color);
+    border-radius: 25px;
+    width: 80%;
+    margin: 16px;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section > div,
+section > figure {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section > div > a {
+    display: block;
+}
+
+section > div > h2,
+section > div > p,
+section > div> a {
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+section > figure {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+section > figure > img {
+    display: block;
+    width: 100%;
+    margin: auto auto;
+}
+
+/*================
+.mainSection class
+================*/
+.mainSection {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.mainSection > h2,
+.mainSection > div {
+    width: 100%;
+}
+
+/*=================
+.listCategory class
+=================*/
+.listCategory {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--link-color);
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.listCategory li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.listCategory li:hover {
+    background-color: var(--link-color-hover);
+}
+
+/*===========
+General Table
+===========*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid var(--table-border-color);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/*==========
+General Form
+==========*/
+form {
+    display: flex;
+    flex-flow: column wrap;
+    border: 15px solid var(--border-color);
+    border-radius: 20px;
+    background-color: var(--div-bg-color);
+    margin: 15px;
+}
+
+label,
+input {
+    display: block;
+}
+
+label {
+    margin: 20px;
+}
+
+legend {
+    padding: 0 5px;
+    margin: 15px;
+}
+
+input {
+    height: 1.5rem;
+    width: 100%;
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 0.75rem 0.5rem;
+    background-color: #eee;
+    margin: 10px 0;
+}
+
+input[required]:invalid {
+    border-left: 5px solid #a11;
+}
+
+input[required]:valid {
+    border-left: 5px solid #1a1;
+}
+
+input[type="submit"] {
+    text-align: center;
+    width: 90%;
+    height: 2.5rem;
+    margin: 25px auto;
+    color: var(--text-color);
+    background-image: linear-gradient(#622, #400);
+    border: none;
+}
+
+input[type="submit"]:hover {
+    color: var(--text-color);
+    background-image: linear-gradient(#733, #511);
+    cursor: pointer;
+}
+
+/*==========
+Modal Dialog
+==========*/
+dialog {
+    margin: auto auto;
+    background-color: var(--background-color);
+    border: solid 20px var(--border-color);
+    border-radius: 25px;
+    width: 50%;
+    padding: 20px;
+}
+
+dialog > * {
+    padding: 1rem 0;
+}
+
+dialog > p {
+    line-height: 1.5rem;
+}
+
+dialog > img {
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+}
+
+dialog > a {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+
+/*==================
+Animation for images
+==================*/
+
+main img {
+    animation: lazy 2.5s;
+}
+
+@keyframes lazy {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+/*=================
+Design for <footer>
+=================*/
+footer {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 0.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+footer > div {
+    margin: 1rem;
+}
+
+footer > div > p {
+    padding: 0.25rem;
+}
+
+footer > div:nth-of-type(2) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+footer > div:nth-of-type(2) > a {
+    margin: 0 16px;
+}
+
+/*Miscellaneous class*/
+
+.activeMenu {
+    background-color: var(--link-color-hover);
+}
+
+.bolder {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.link {
+    padding: 1rem;
+    background-color: var(--link-color);
+    border: none;
+    border-radius: 1.25rem;
+    text-align: center;
+}
+
+.link:hover {
+    background-color: var(--link-color-hover);
+}
+
+.modalExit {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+/*================
+Large media screen 
+================*/
+@media screen and (min-width: 45rem) {
+    #menu {
+        display: none;
+    }
+    
+    .navigation {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .navigation li {
+        list-style: none;
+        width: 25%;
+    }
+    
+    .navigation a{
+        display: block;
+        flex: 2 1 100%;
+        text-align: center;
+        width: 100%;
+    }
+
+    section > div,
+    section > figure {
+        width: 50%;
+    }
+
+    section > figure {
+        flex-flow: column wrap;
+    }
+}

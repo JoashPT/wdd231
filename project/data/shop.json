@@ -1,0 +1,267 @@
+{
+    "prebuilt": [
+        {
+            "name": "Lin Yun-Ju Super ZLC + Tenergy 05 Hard + Dignics 05",
+            "price": 516.57,
+            "image": "./images/lin-yun-ju-prebuilt.webp",
+            "modalImage": "./images/lin-yun-ju-prebuilt-modal.webp",
+            "description": "The Identical Racket Used By Lin Yun-Ju. The Super ZL Carbon (SZLC) fiber provides a massive sweet spot for the most consistent and direct play. Tenergy 05 Hard has adopted a stiffer sponge to add further power to the original Tenergy 05 rubber. Dignics 05 is recommended for players seeking to generate a high level attack while pressuring the opponent with powerful topspin play.",
+            "seller": "Rodrigo Gimenez",
+            "location": "Cavite City",
+            "source": "https://shop.butterflyonline.com/Lin-Yun-Ju-Super-ZLC-Pro-Line-Racket-CMR70"
+        },
+        {
+            "name": "Franziska Innerforce ZLC + Dignics 05 + Dignics 05",
+            "price": 412.17,
+            "image": "./images/franziska-prebuilt.webp",
+            "modalImage": "./images/franziska-prebuilt-modal.webp",
+            "description": "The power of Carbon meets the strength and lightweight characteristics of ZL Fiber. ZLC will provide enhanced stability and a medium-hard feel. Dignics 05 is recommended for players seeking to generate a high level attack while pressuring the opponent with powerful topspin play. Dignics 05 is powered by Spring Sponge X technology and was developed to generate more power, 'hold' the ball longer and to be even more durable than its predecessor, Spring Sponge.",
+            "seller": "Alfredo Ortega",
+            "location": "Noveleta",
+            "source": "https://shop.butterflyonline.com/Franziska-Innerforce-ZLC-Pro-Line-Racket-CMR71B"  
+        },
+        {
+            "name": "Zhang Jike ZLC FL Pro-Line with Tenergy 64",
+            "price": 386.97,
+            "image": "./images/zhang-jike-prebuilt.webp",
+            "modalImage": "./images/zhang-jike-prebuilt-modal.webp",
+            "description": "The power of Carbon meets the strength and lightweight characteristics of ZL Fiber. ZLC will provide enhanced stability and a medium-hard feel. Tenergy 64 is the fastest of the Tenergy series rubbers allowing you to quickly go on the offense. It keeps a low trajectory whether attacking or defending. Due to the low throw angle it is well-suited for blocking, smashing, and powerful topspin shots. It also excels at short pushes, especially with heavy spin.",
+            "seller": "Alba Perez",
+            "location": "City of Bacoor",
+            "source": "https://shop.butterflyonline.com/zhang-jike-zlc-cmr188"
+               
+        },
+        {
+            "name": "Ovtcharov Innerforce ALC + Dignics 09C + Dignics 05",
+            "price": 335.67,
+            "image": "./images/ovtcharov-prebuilt.webp",
+            "modalImage": "./images/ovtcharov-prebuilt-modal.webp",
+            "description": "Butterfly's enormously popular Arylate/Carbon technology. The power of Carbon meets the vibration reducing properties of Arylate. Dignics 09C due to its sticky top-sheet which allows sharp topspin and gives the sensation of 'holding' the ball at impact. Dignics 09C which is the spinniest rubbers in the Butterfly range. Dignics 05 is recommended for players seeking to generate a high level attack while pressuring the opponent with powerful topspin play.  ",
+            "seller": "Carmen Torres",
+            "location": "City of Dasmariñas",
+            "source": "https://shop.butterflyonline.com/ovtcharov-innerforce-alc-pro-line-racket-cmr37a"  
+        },
+        {
+            "name": "Timo Boll ALC AN Pro-Line with Tenergy 05",
+            "price": 310.47,
+            "image": "./images/timo-ball-prebuilt.webp",
+            "modalImage": "./images/timo-ball-prebuilt-modal.webp",
+            "description": "Butterfly's enormously popular Arylate/Carbon technology. The power of Carbon meets the vibration reducing properties of Arylate. Tenergy 05 is widely used by many world-class players. It will enable you with a full range of topspin power play whether playing close to the table or at a middle distance. The Spring Sponge technology adds additional speed and spin to each shot and offers tremendous feel.",
+            "seller": "Alvaro Herrera",
+            "location": "Silang",
+            "source": "https://shop.butterflyonline.com/timo-boll-alc-proline-an" 
+        }
+    ],
+
+    "paddle": [
+        {
+            "name": "Timo Boll 30th Anniversary Edition FL",
+            "price": 494.99,
+            "image": "./images/timo-ball-paddle.webp",
+            "modalImage": "./images/timo-ball-paddle-modal.webp",
+            "description": "A new technology has been introduced to the celebratory blade. There has been a concern that sweat on the palm affects the delicate touch and feeling of a stroke; normal handles (wood handles) have a relatively smooth surface. In pursuit of a less slippery handle, Butterfly has successfully developed a material dedicated to the blade handle whose friction does not easily fluctuate even when exposed to high levels of sweat. Timo has welcomed this material and has already been using at actual tournaments. The material is named G-Fless; this is where another chapter of history begins.",
+            "seller": "Rosario Leon",
+            "location": "City of General Trias",
+            "source": "https://shop.butterflyonline.com/timo-boll-30th-anniversary-edition-fl-1265FL"
+        },
+        {
+            "name": "Lin Yun-Ju Super ZLC Blade",
+            "price": 359.99,
+            "image": "./images/lin-yun-ju-paddle.webp",
+            "modalImage": "./images/lin-yun-ju-paddle-modal.webp",
+            "description": "The Super ZL Carbon equipped racket, which is woven with Carbon and ZL fiber at high density, is characterized by good momentum that draws out the power of hitting balls and stability due to a wide high repulsion area.",
+            "seller": "Pablo Moreno",
+            "location": "Indang",
+            "source": "https://shop.butterflyonline.com/Lin-Yun-Ju-Super-ZLC-Blade-1254"
+        },
+        {
+            "name": "Revoldia CNF Blade",
+            "price": 332.99,
+            "image": "./images/revoldia-paddle.webp",
+            "modalImage": "./images/revoldia-paddle-modal.webp",
+            "description": "The Revoldia CNF represents a new technology with regards to blade construction. Unlike classic carbon fibers, ALC fibers, TAMCA fibers, or ZLC fibers, this new fiber brings a new standard with regards to blade design and performance. This new technology is called Cellulose NanoFiber, hence the CNF abbreviation. Cellulose Nanofiber is derived fiber from wood pulp. This pulp as been micro-refined to the nano level of several hundredths of microns, and smaller. The new special material has the characteristics of wood, with the same technology that has been used for carbon and other materials.",
+            "seller": "Martin Santana",
+            "location": "Trece Martires City",
+            "source": "https://shop.butterflyonline.com/Revoldia-CNF"
+        },
+        {
+            "name": "Viscaria Super ALC CS Blade",
+            "price": 242.99,
+            "image": "./images/viscaria-paddle.webp",
+            "modalImage": "./images/viscaria-paddle-modal.webp",
+            "description": "The Butterfly Viscaria Super ALC blade is the latest advance to emerge from Butterfly's famed R&D department. With increased power and softer touch, this update on the classic Viscaria blade creates new options for players from everywhere around the table.",
+            "seller": "Eva Santiago",
+            "location": "Alfonso",
+            "source": "https://shop.butterflyonline.com/Viscaria-Super-ALC-CS-Blade-1013CS"
+        },
+        {
+            "name": "Franziska Innerforce ZLC Blade",
+            "price": 242.99,
+            "image": "./images/franziska-paddle.webp",
+            "modalImage": "./images/franziska-paddle-modal.webp",
+            "description": "Constructed with Innerfiber specifications, equipped with ZL Carbon, and trusted by German star Patrick Franziska. It offers high speed and a feeling of holding the ball. It is recommended for players who seek powerful, stable attacks. The combination of a simple colored grip and a shiny lens with his initials engraved with a motif expresses a stoic figure trying to find light through rigorous practice, a la Patrick Franziska.",
+            "seller": "Antonio Fuentes",
+            "location": "Magallanes",
+            "source": "https://shop.butterflyonline.com/Franziska-Innerforce-ZLC-Blade-1257"
+        }
+    ],
+
+    "rubber": [
+        {
+            "name": "Dignics 09C",
+            "price": 84.59,
+            "image": "./images/dignics.webp",
+            "modalImage": "./images/dignics-modal.webp",
+            "description": "Dignics guides your play to a more advanced level. The essence is the combination of Spring Sponge X, the advanced version of Spring Sponge which has more elasticity, with the uniquely composed top sheets, now with strengthened abrasion. This is even more true with the newest addition to the line, Dignics 09C. Compatible friction and a high level bounce is realised thanks to the synergy effect between the original top sheet and a rather hard Spring Sponge X (a little harder than Tenergy 05 Hard), to bring out the features of a friction rubber while upgrading the High Tension effect. ",
+            "seller": "Hector Gallego",
+            "location": "Mendez",
+            "source": "https://shop.butterflyonline.com/dignics-09C-dig09Cp"
+        },
+        {
+            "name": "Tenergy 19",
+            "price": 71.99,
+            "image": "./images/tenergy.webp",
+            "modalImage": "./images/tenergy-modal.webp",
+            "description": "Butterfly Tenergy 19, the newest rubber in the Tenergy line, takes Tenergy performance in a new direction. Tenergy 19, with a newly developed top sheet, manages to generate more speed and spin than the flagship Tenergy 05. Combined with Spring Sponge, this rubber sheet also has more dwell time, especially with strong and precise attacks.",
+            "seller": "Ana Belén Aguilar",
+            "location": "Ternate",
+            "source": "https://shop.butterflyonline.com/Tenergy-19-TN19"
+        },
+        {
+            "name": "Bryce High Speed",
+            "price": 56.69,
+            "image": "./images/bryce.webp",
+            "modalImage": "./images/bryce-modal.webp",
+            "description": "The most powerful rubber from Butterfly, using innovative Micro Layer technology, giving BRYCE HIGHSPEED a much thinner surface structure compared to other rubbers. As a result, compression of the rubber is increased on ball impact, providing additional grip and spin. The thinner rubber layer combined with a soft sponge makes it easier to generate spin, even at high speeds. BRYCE HIGHSPEED is well suited for all-out attacking players looking for a high-powered rubber, especially for driving shots and flat-hitting.",
+            "seller": "Olga Torres",
+            "location": "Naic",
+            "source": "https://shop.butterflyonline.com/bryce-high-speed"
+        },
+        {
+            "name": "Feint AG",
+            "price": 53.99,
+            "image": "./images/feint.webp",
+            "modalImage": "./images/feint-modal.webp",
+            "description": "In today's modern game, it is becoming increasingly difficult for the all-out defender to be successful due to improvements in rubber and blade technology. For players that want the deception of long pips but don't want to give up the ability to opportunistically attack, Feint AG is a dream come true. Originally released in 2007 with soft, flexible long pips that also have the same High Tension technology found in the Tenergy and Dignics lines, players can now easily transition from defending to hitting with confidence.",
+            "seller": "Alvaro Santana",
+            "location": "Maragondon",
+            "source": "https://shop.butterflyonline.com/feint-ag"
+        },
+        {
+            "name": "Roundell",
+            "price": 49.49,
+            "image": "./images/roundell.webp",
+            "modalImage": "./images/roundell-modal.webp",
+            "description": "Butterfly Roundell rubber is a great offensive rubber, with more spin than Bryce Speed and nearly the same speed as Tenergy 05. Roundell is perfect for the beginner to intermediate player interested in trying High Tension rubber, giving one consistent reaction and controlled performance. Roundell provides a fresh glue feel and sound when contacting the ball, due to the very flexible top sheet and sponge. This Butterfly rubber is geared towards an aggressive offensive player looking for consistency and controlled performance.",
+            "seller": "Josep Moreno",
+            "location": "General Emilio Aguinaldo",
+            "source": "https://shop.butterflyonline.com/roundell"
+        }
+    ],
+
+    "ball": [
+        {
+            "name": "Butterfly Training Ball 40+ White",
+            "price": 5.99,
+            "image": "./images/butterfly-training.webp",
+            "modalImage": "./images/butterfly-training-modal.webp",
+            "description": "The Butterfly Training Ball comes with high quality, comparable to a Three-star ball. The ball can be used for training, such as multi-ball, with a similar feel to competitions due to its high roundness, steadiness and durability.",
+            "seller": "María Soledad Soto",
+            "location": "Tagaytay City",
+            "source": "https://shop.butterflyonline.com/Butterfly-Training-Ball-40-White-BTB"
+        },
+        {
+            "name": "MK Practice Balls 40mm White 144pack",
+            "price": 54.99,
+            "image": "./images/mk-practice.webp",
+            "modalImage": "./images/mk-practice-modal.webp",
+            "description": "Large pack of white seamless practice balls. Ideal for institutions.",
+            "seller": "Daniel Reyes",
+            "location": "Tanza",
+            "source": "https://shop.butterflyonline.com/mk-practice-balls-bulk"
+        },
+        {
+            "name": "Butterfly R40+ 3-Star Ball White",
+            "price": 8.99,
+            "image": "./images/butterfly-r40.webp",
+            "modalImage": "./images/butterfly-r40-modal.webp",
+            "description": "Manufactured under stricter quality control, the R40+ 3-Star ball is highly uniform and provides stable rotation, speed and balance. Its high precision provides a consistent bounce, reliable trajectory and is more durable than previous generations.",
+            "seller": "Rosa Pastor",
+            "location": "Amadeo",
+            "source": "https://shop.butterflyonline.com/bty-3-star-ball-r40"
+        },
+        {
+            "name": "MK 3-Star Balls White 6/clam",
+            "price": 5.99,
+            "image": "./images/mk-three.webp",
+            "modalImage": "./images/mk-three-modal.webp",
+            "description": "Six pack of seamless 3-Star balls. Professional grade play at an economical price. Offers the most consistent bounce in the MK Line.",
+            "seller": "Rosa María Gil",
+            "location": "General Mariano Alvarez",
+            "source": "https://shop.butterflyonline.com/mk-three-star-ball"
+        },
+        {
+            "name": "MK Fun Balls (6 in Clampack)",
+            "price": 3.99,
+            "image": "./images/mk-fun.webp",
+            "modalImage": "./images/mk-fun-modal.webp",
+            "description": "Six pack of seamless 2-Star quality brightly colored novelty balls.",
+            "seller": "María Mercedes Ferrer",
+            "location": "City of Carmona",
+            "source": "https://shop.butterflyonline.com/mk-fun-balls"
+        }
+    ],
+
+    "miscalleneous": [
+        {
+            "name": "Free Chack Pro II",
+            "price": 22.99,
+            "image": "./images/free-chack.webp",
+            "modalImage": "./images/free-chack-modal.webp",
+            "description": "Compared to the Free Chack Pro, the consistency has been optimized. This results in a shortened drying time. This achieves immediate 100% adhesion to the surface of the blade.",
+            "seller": "Domingo Cabrera",
+            "location": "City of Imus",
+            "source": "https://shop.butterflyonline.com/Free-Chack-Pro-II-301789"
+        },
+        {
+            "name": "Rubber Cleaner",
+            "price": 14.99,
+            "image": "./images/rubber-cleaner.webp",
+            "modalImage": "./images/rubber-cleaner-modal.webp",
+            "description": "The rubber surface is highly delicate and this specially formulated cleaner was designed for table tennis rubber and will not harm the surface. It is also advised to clean your rubber before you store your racket. To further prolong the life of the rubber, add a protective film and store your paddle in a racket case. The additional padding will also help cushion the blow, should you happen to drop your racket.",
+            "seller": "Xavier Castro",
+            "location": "Rosario",
+            "source": "https://shop.butterflyonline.com/rubber-cleaner-3751"
+        },
+        {
+            "name": "Kibako Wood Case",
+            "price": 174.99,
+            "image": "./images/kibako-wood.webp",
+            "modalImage": "./images/kibako-wood-modal.webp",
+            "description": "Overall it is a beautifully crafted case that will hold your racket secure, protected, and it screams quality.",
+            "seller": "Sofía Sanz",
+            "location": "Kawit",
+            "source": "https://shop.butterflyonline.com/kibako-wood-case-530"
+        },
+        {
+            "name": "Side Tape Butterfly Black/Magenta 6mm",
+            "price": 19.99,
+            "image": "./images/side-tape.webp",
+            "modalImage": "./images/side-tape-modal.webp",
+            "description": "Roll of protective tape.",
+            "seller": "Ana María Santos",
+            "location": "City of Dasmariñas",
+            "source": "https://shop.butterflyonline.com/side-tape-bty-black-6mm"
+        },
+        {
+            "name": "Overgrip Soft Tapes",
+            "price": 12.99,
+            "image": "./images/soft-tape.webp",
+            "modalImage": "./images/soft-tape-modal.webp",
+            "description": "High sensitivity material enhances the feeling of the handle. Maximum sweat absorption and non-slip profile.",
+            "seller": "Aurora Saez",
+            "location": "City of Imus",
+            "source": "https://shop.butterflyonline.com/overgrip-soft-tapes"
+        }
+    ]
+}
