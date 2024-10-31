@@ -315,6 +315,10 @@ dialog {
     padding: 20px;
 }
 
+dialog::backdrop {
+    backdrop-filter: 1px;
+}
+
 dialog > * {
     padding: 1rem 0;
 }
